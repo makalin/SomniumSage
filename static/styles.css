@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 2em;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #4CAF50;
+}
+
+form {
+  margin-top: 1em;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}

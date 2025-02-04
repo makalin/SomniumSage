@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SomniumSage - Dream Interpreter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <h1>SomniumSage: AI-Powered Dream Interpreter</h1>
+    {% if error %}
+      <p class="error">{{ error }}</p>
+    {% endif %}
+    <form method="post">
+      <label for="dream_text">Enter your dream description:</label><br>
+      <textarea name="dream_text" id="dream_text" rows="10" cols="50" placeholder="Describe your dream here..."></textarea><br>
+      <button type="submit">Interpret</button>
+    </form>
+  </body>
+</html>

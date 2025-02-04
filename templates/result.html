@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SomniumSage - Interpretation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <h1>SomniumSage: Dream Interpretation</h1>
+    <section>
+      <h2>Your Dream</h2>
+      <p>{{ dream_text }}</p>
+    </section>
+    <hr>
+    <section>
+      <h2>Interpretation</h2>
+      <p>{{ interpretation }}</p>
+    </section>
+    <br>
+    <a href="{{ url_for('index') }}">Interpret another dream</a>
+  </body>
+</html>
