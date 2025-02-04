@@ -11,7 +11,7 @@ SomniumSage is an AI-powered web application that interprets your dreams using N
 ## Project Structure
 
 ```
-somniumsage/
+SomniumSage/
 ├── app.py
 ├── dream_dataset.csv
 ├── requirements.txt
